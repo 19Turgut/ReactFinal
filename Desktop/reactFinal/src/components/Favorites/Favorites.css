@@ -1,0 +1,76 @@
+.favorites {
+    box-sizing: border-box;
+    border: 1px solid rgba(0, 8, 7);
+    padding: 30px 20px;
+}
+
+.favorites__name {
+    box-sizing: border-box;
+    width: 100%;
+    font-size: 16px;
+    padding: 5px 10px;
+    border: 1px solid rgba(0, 8, 7, .5);
+    margin-bottom: 24px;
+}
+
+.favorites__list {
+    margin-left: 15px;
+    margin-bottom: 24px;
+    list-style-type:decimal-leading;
+}
+
+.favorites__save {
+    border: none;
+    background-color: #496DDB;
+    padding: 10px 15px;
+    color: #FFEEDB;
+    font-size: 14px;
+    transition: all 0.2s linear;
+    margin-top: 10px;
+}
+
+.favorites__save:hover {
+    cursor: pointer;
+    opacity: 0.9;
+    transition: all 0.2s linear;
+}
+.deletebutton{
+    margin-left: 10px;
+    margin-bottom: 10px;
+    position: relative;
+    width: 20px;
+    height: 20px;
+    border-radius: 25px;
+    border: 2px solid rgb(68, 10, 243);
+    background-color: #ffffff;
+    cursor: pointer;
+    box-shadow: 0 0 10px #333;
+    overflow: hidden;
+    
+  }
+
+svg {
+  color: rgb(92, 50, 231);
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  transition: .3s;
+}
+
+
+span {
+  width: 70px;
+  position: absolute;
+  opacity: 0;
+  transform: translate(-50%, -50%);
+  color: rgb(50, 56, 231);
+  font-weight: 600;
+  transition: .3s;
+}
+
+.olclass{
+    list-style-type:decimal-leading;
+    margin-left: 16px;
+    color: black
+}
